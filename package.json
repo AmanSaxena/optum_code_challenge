@@ -13,14 +13,11 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "geolib": "^3.3.1",
-    "nodemon": "^1.18.10",
-    "typescript": "^3.3.3333"
+    "geolib": "^3.3.1"
   },
   "scripts": {
     "format:fix": "prettier --write **/*.{js,ts,md,json}",
     "test": "jest",
-    "dev": "node ./src/index.js",
-    "start": "node ./dist/src/index.js"
+    "start": "node ./src/index.js"
   }
 }
